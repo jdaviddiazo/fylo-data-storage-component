@@ -28,6 +28,7 @@ body {
     background: url('../assets/bg-desktop.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 0% 0%;
     background-color: var(--very-dark-blue);
     display: flex;
     justify-content: center;
