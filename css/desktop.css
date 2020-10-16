@@ -10,7 +10,7 @@
     --grayish-blue: hsl(229, 7%, 55%);
     --dark-blue: hsl(228, 56%, 26%);
     --dark-blue-icon: #121e47;
-    --very-dark-blue: hsl(229, 57%, 11%);
+    --very-dark-blue: #020a29;
 }
 
 html {
@@ -19,20 +19,26 @@ html {
 }
 
 body {
+    background-color: var(--very-dark-blue);
+    margin-top: 20rem;
+
+}
+
+.principal-section {
     background: url('../assets/bg-desktop.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: var(--very-dark-blue);
     display: flex;
     justify-content: center;
-    margin-top: 20rem;
+    padding-bottom: 50rem;
 }
 
 .first-section {
     background-color: var(--dark-blue);
-    /* width: 18%; */
     padding: 4rem;
     border-radius: 1rem 9rem 1rem 1rem;
+    width: 35rem;
 }
 
 .icon-container {
@@ -57,7 +63,7 @@ body {
     margin-top: 4rem;
     margin-left: 3rem;
     border-radius: 1rem;
-    /* width: 30%; */
+    width: 55rem;
 }
 
 .gb-description {
@@ -141,3 +147,13 @@ body {
     color: var(--grayish-blue);
     margin-left: 1rem;
 }
+
+.attribution {
+    color: #fff;
+    margin-top: -5rem;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .attribution a {
+    color: var(--pale-blue);
+  }

@@ -125,3 +125,13 @@ body {
     color: var(--grayish-blue);
     margin-left: 1rem;
 }
+
+.attribution {
+    color: #fff;
+    margin-top: 10rem;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .attribution a {
+    color: var(--pale-blue);
+  }

@@ -5,43 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fylo data storage component | J. David Díaz</title>
     <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" media="(max-width: 375px)" href="css/mobile.css" />
-    <link rel="stylesheet" media="(min-width: 375px)" href="css/desktop.css" />
+    <link rel="stylesheet" media="(max-width: 722px)" href="css/mobile.css" />
+    <link rel="stylesheet" media="(min-width: 722px)" href="css/desktop.css" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="first-section">
-        <img class="logo" src="assets/logo.svg" alt="Logo">
-        <div class="icon-container">
-            <div class="icon-box">
-                <img class="icon" src="assets/icon-document.svg" alt="Document icon">
+    <div class="principal-section">
+        <section class="first-section">
+            <img class="logo" src="assets/logo.svg" alt="Logo">
+            <div class="icon-container">
+                <div class="icon-box">
+                    <img class="icon" src="assets/icon-document.svg" alt="Document icon">
+                </div>
+                <div class="icon-box">
+                    <img class="icon" src="assets/icon-folder.svg" alt="Folder icon">
+                </div>
+                <div class="icon-box">
+                    <img class="icon" src="assets/icon-upload.svg" alt="Upload icon">
+                </div>
             </div>
-            <div class="icon-box">
-                <img class="icon" src="assets/icon-folder.svg" alt="Folder icon">
+        </section>
+        <section class="second-section">
+            <span class="gb-description">
+                <p>
+                    You've used <strong>815 GB</strong> of your storage
+                </p>
+            </span>
+            <div class="bar-background">
+                <div class="bar-gradient"></div>
             </div>
-            <div class="icon-box">
-                <img class="icon" src="assets/icon-upload.svg" alt="Upload icon">
+            <div class="range-number">
+                <span>0 GB</span>
+                <span>1000 GB</span>
             </div>
-        </div>
-    </section>
-    <section class="second-section">
-        <span class="gb-description">
-            <p>
-                You've used <strong>815 GB</strong> of your storage
-            </p>
-        </span>
-        <div class="bar-background">
-            <div class="bar-gradient"></div>
-        </div>
-        <div class="range-number">
-            <span>0 GB</span>
-            <span>1000 GB</span>
-        </div>
-        <div class="gb-bottom-container">
-            <span class="gb-bottom-number">185</span>
-            <span class="gb-bottom-text">GB LEFT</span>
-        </div>
-    </section>
+            <div class="gb-bottom-container">
+                <span class="gb-bottom-number">185</span>
+                <span class="gb-bottom-text">GB LEFT</span>
+            </div>
+        </section>
+    </div>
+    <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/jdaviddiazo">J. David Díaz (@jdaviddiazo)</a>.
+    </div>
     
 </body>
 </html>
