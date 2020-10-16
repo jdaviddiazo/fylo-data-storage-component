@@ -4,9 +4,53 @@
     padding: 0;
 }
 
+:root {
+    --gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+    --pale-blue: hsl(243, 100%, 93%);
+    --grayish-blue: hsl(229, 7%, 55%);
+    --dark-blue: hsl(228, 56%, 26%);
+    --very-dark-blue: hsl(229, 57%, 11%);
+}
+
 html {
     font-size: 62.5%;
+    font-family: 'Raleway', sans-serif;
 }
 
 body {
+    background: url('../assets/bg-mobile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--dark-blue);
+}
+
+.first-section {
+    background-color: var(--dark-blue);
+    margin: 15rem 2.5rem 2rem 2.5rem;
+    padding: 4rem;
+    border-radius: 1rem 9rem 1rem 1rem;
+}
+
+.icon-container {
+    cursor: pointer;
+    margin-top: 2.5rem;
+    display: flex;
+}
+
+.icon-box {
+    background-color: var(--very-dark-blue);
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    margin-right: 1.5rem;
+}
+
+.second-section {
+    background-color: var(--dark-blue);
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    padding: 4rem;
+    border-radius: 1rem;
 }
