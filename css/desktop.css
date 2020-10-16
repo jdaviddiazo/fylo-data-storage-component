@@ -30,7 +30,7 @@ body {
 
 .first-section {
     background-color: var(--dark-blue);
-    width: 18%;
+    /* width: 18%; */
     padding: 4rem;
     border-radius: 1rem 9rem 1rem 1rem;
 }
@@ -57,7 +57,7 @@ body {
     margin-top: 4rem;
     margin-left: 3rem;
     border-radius: 1rem;
-    width: 30%;
+    /* width: 30%; */
 }
 
 .gb-description {
@@ -109,12 +109,25 @@ body {
     background-color: #fff;
     display: flex;
     padding: 1.2rem;
-    border-radius: 1rem;
+    border-radius: 1rem 1rem 0rem 1rem;
     align-items: center;
     justify-content: center;
     width: 40%;
-    margin: -15rem 0rem 0rem 25rem;
+    margin: -16rem 0 0 60%;
+    position: relative;
 }
+
+.gb-bottom-container::before {
+    content: "";
+    background-color: #fff;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    right: 0;
+    bottom: -2rem;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+
 
 .gb-bottom-number {
     font-size: 3.8rem;
